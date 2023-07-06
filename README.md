@@ -1,2 +1,2 @@
-# module17_homework
- jest pracrtice
+# learn-js
+js examples for fast learning
