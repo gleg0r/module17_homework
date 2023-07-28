@@ -1,5 +1,7 @@
-const sum = require('./index');
+const shapeshifter = require('./index');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
-});
+xdescribe('test for shapeshifter', () => {
+  it('should give underupped word', () => {
+    expect(shapeshifter('son of bitch')).toBe('drow')
+  })
+})
